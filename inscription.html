@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="indx.css">
+    <script type="text/javascript" src="inscription.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <form method="POST" onclick="validate()">
+        <h2>inscriprion</h2>
+        <input type="text" placeholder="Nom...." required><br>
+        <input type="text" placeholder="Prenom...." required><br>
+        <input type="text" placeholder="@email...." required><br>
+        <input id="pswd_1" type="password" placeholder="mot de passe...." required><br>
+        <input id="pswd_2" type="password" placeholder="confirmer votre mot de passe...." required><br>
+    
+        <button type = "submit" onclick="matchPassword()" >Se connecter</button>
+    
+        <button type = "reset" value = "Reset">Reset</button>
+    
+
+</form>
+    </div>
+
+    
+</body>
+
+</html>
